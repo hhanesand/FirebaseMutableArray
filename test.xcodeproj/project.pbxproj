@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21AD6B31A102DD20053F555 /* FirebaseMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F21AD6B21A102DD20053F555 /* FirebaseMutableArray.m */; };
+		F21AD6B71A1057050053F555 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21AD6B61A1057050053F555 /* TestViewController.m */; };
+		F240ADF719F16DA6006D15ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F240ADF619F16DA6006D15ED /* UIKit.framework */; };
+		F28A6DCE19F0888A00023213 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F28A6DCD19F0888A00023213 /* Firebase.framework */; };
 		F2D3D5CF19EF8A0D006F92E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3D5CE19EF8A0D006F92E2 /* main.m */; };
 		F2D3D5D219EF8A0D006F92E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3D5D119EF8A0D006F92E2 /* AppDelegate.m */; };
-		F2D3D5D519EF8A0D006F92E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3D5D419EF8A0D006F92E2 /* ViewController.m */; };
-		F2D3D5D819EF8A0D006F92E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D3D5D619EF8A0D006F92E2 /* Main.storyboard */; };
 		F2D3D5DA19EF8A0D006F92E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D3D5D919EF8A0D006F92E2 /* Images.xcassets */; };
 		F2D3D5DD19EF8A0D006F92E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2D3D5DB19EF8A0D006F92E2 /* LaunchScreen.xib */; };
 		F2D3D5E919EF8A0D006F92E2 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D3D5E819EF8A0D006F92E2 /* testTests.m */; };
+		F2D3D5F319EF8C6A006F92E2 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D3D5F219EF8C6A006F92E2 /* libicucore.dylib */; };
+		F2D3D5F519EF8C79006F92E2 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D3D5F419EF8C79006F92E2 /* libc++.dylib */; };
+		F2D3D5F719EF8C80006F92E2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D3D5F619EF8C80006F92E2 /* CFNetwork.framework */; };
+		F2D3D5F919EF8C8A006F92E2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D3D5F819EF8C8A006F92E2 /* Security.framework */; };
+		F2D3D5FB19EF8C96006F92E2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2D3D5FA19EF8C96006F92E2 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +34,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F21AD6B21A102DD20053F555 /* FirebaseMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseMutableArray.m; sourceTree = "<group>"; };
+		F21AD6B41A102DEA0053F555 /* FirebaseMutableArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirebaseMutableArray.h; sourceTree = "<group>"; };
+		F21AD6B51A1057050053F555 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F21AD6B61A1057050053F555 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F240ADF619F16DA6006D15ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F28A6DCD19F0888A00023213 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = ../../Firebase.framework; sourceTree = "<group>"; };
 		F2D3D5C919EF8A0D006F92E2 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D3D5CD19EF8A0D006F92E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D3D5CE19EF8A0D006F92E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2D3D5D019EF8A0D006F92E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F2D3D5D119EF8A0D006F92E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F2D3D5D319EF8A0D006F92E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F2D3D5D419EF8A0D006F92E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F2D3D5D719EF8A0D006F92E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2D3D5D919EF8A0D006F92E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2D3D5DC19EF8A0D006F92E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F2D3D5E219EF8A0D006F92E2 /* testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2D3D5E719EF8A0D006F92E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2D3D5E819EF8A0D006F92E2 /* testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTests.m; sourceTree = "<group>"; };
+		F2D3D5F219EF8C6A006F92E2 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		F2D3D5F419EF8C79006F92E2 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		F2D3D5F619EF8C80006F92E2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F2D3D5F819EF8C8A006F92E2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F2D3D5FA19EF8C96006F92E2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F2D3D5FC19EF8CCC006F92E2 /* project.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = project.xcworkspace; path = test.xcodeproj/project.xcworkspace; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F240ADF719F16DA6006D15ED /* UIKit.framework in Frameworks */,
+				F28A6DCE19F0888A00023213 /* Firebase.framework in Frameworks */,
+				F2D3D5FB19EF8C96006F92E2 /* SystemConfiguration.framework in Frameworks */,
+				F2D3D5F919EF8C8A006F92E2 /* Security.framework in Frameworks */,
+				F2D3D5F719EF8C80006F92E2 /* CFNetwork.framework in Frameworks */,
+				F2D3D5F519EF8C79006F92E2 /* libc++.dylib in Frameworks */,
+				F2D3D5F319EF8C6A006F92E2 /* libicucore.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,14 +104,11 @@
 		F2D3D5CB19EF8A0D006F92E2 /* test */ = {
 			isa = PBXGroup;
 			children = (
-				F2D3D5D019EF8A0D006F92E2 /* AppDelegate.h */,
-				F2D3D5D119EF8A0D006F92E2 /* AppDelegate.m */,
-				F2D3D5D319EF8A0D006F92E2 /* ViewController.h */,
-				F2D3D5D419EF8A0D006F92E2 /* ViewController.m */,
-				F2D3D5D619EF8A0D006F92E2 /* Main.storyboard */,
-				F2D3D5D919EF8A0D006F92E2 /* Images.xcassets */,
-				F2D3D5DB19EF8A0D006F92E2 /* LaunchScreen.xib */,
 				F2D3D5CC19EF8A0D006F92E2 /* Supporting Files */,
+				F21AD6B21A102DD20053F555 /* FirebaseMutableArray.m */,
+				F21AD6B41A102DEA0053F555 /* FirebaseMutableArray.h */,
+				F21AD6B51A1057050053F555 /* TestViewController.h */,
+				F21AD6B61A1057050053F555 /* TestViewController.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -96,6 +116,18 @@
 		F2D3D5CC19EF8A0D006F92E2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F240ADF619F16DA6006D15ED /* UIKit.framework */,
+				F28A6DCD19F0888A00023213 /* Firebase.framework */,
+				F2D3D5FC19EF8CCC006F92E2 /* project.xcworkspace */,
+				F2D3D5FA19EF8C96006F92E2 /* SystemConfiguration.framework */,
+				F2D3D5F819EF8C8A006F92E2 /* Security.framework */,
+				F2D3D5F619EF8C80006F92E2 /* CFNetwork.framework */,
+				F2D3D5F419EF8C79006F92E2 /* libc++.dylib */,
+				F2D3D5F219EF8C6A006F92E2 /* libicucore.dylib */,
+				F2D3D5DB19EF8A0D006F92E2 /* LaunchScreen.xib */,
+				F2D3D5D919EF8A0D006F92E2 /* Images.xcassets */,
+				F2D3D5D019EF8A0D006F92E2 /* AppDelegate.h */,
+				F2D3D5D119EF8A0D006F92E2 /* AppDelegate.m */,
 				F2D3D5CD19EF8A0D006F92E2 /* Info.plist */,
 				F2D3D5CE19EF8A0D006F92E2 /* main.m */,
 			);
@@ -199,7 +231,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D3D5D819EF8A0D006F92E2 /* Main.storyboard in Resources */,
 				F2D3D5DD19EF8A0D006F92E2 /* LaunchScreen.xib in Resources */,
 				F2D3D5DA19EF8A0D006F92E2 /* Images.xcassets in Resources */,
 			);
@@ -219,8 +250,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2D3D5D519EF8A0D006F92E2 /* ViewController.m in Sources */,
+				F21AD6B71A1057050053F555 /* TestViewController.m in Sources */,
 				F2D3D5D219EF8A0D006F92E2 /* AppDelegate.m in Sources */,
+				F21AD6B31A102DD20053F555 /* FirebaseMutableArray.m in Sources */,
 				F2D3D5CF19EF8A0D006F92E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +276,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F2D3D5D619EF8A0D006F92E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F2D3D5D719EF8A0D006F92E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F2D3D5DB19EF8A0D006F92E2 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -343,8 +367,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Hakon_Hanesad/xCodeProjects,
+					/Users/Hakon_Hanesad/xCodeProjects,
+					/Users/Hakon_Hanesad/xCodeProjects,
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -353,8 +384,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Hakon_Hanesad/xCodeProjects,
+					/Users/Hakon_Hanesad/xCodeProjects,
+					/Users/Hakon_Hanesad/xCodeProjects,
+				);
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +450,7 @@
 				F2D3D5EE19EF8A0D006F92E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2D3D5EF19EF8A0D006F92E2 /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +459,7 @@
 				F2D3D5F119EF8A0D006F92E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
